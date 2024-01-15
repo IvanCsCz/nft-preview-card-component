@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  display: grid;
+  min-width: 350px;
+  min-height: 100vh;
+  place-content: center;
+  background-color: #0d192c;
+  color: #fff;
+  font-family: Outfit;
+}
+
+.card {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background-color: #15263f;
+  border-radius: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+  width: 302px;
+  height: 270px;
+  order: -10;
+  border-radius: 8px;
+}
+
+.card-title {
+  margin-top: 24px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.card-description {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #8bacd9;
+}
+
+.card-price-time {
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #2e405a;
+  color: #00fff8;
+}
+
+.card-price-time span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8bacd9;
+}
+
+.card-price-time img:first-child {
+  margin-right: 7px;
+}
+.card-price-time img:nth-child(2) {
+  margin-left: auto;
+  margin-right: 7px;
+}
+.card-user-info {
+  display: flex;
+  align-items: center;
+  padding: 16px 0 8px 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8bacd9;
+}
+
+.card-user-info-photo {
+  width: 33px;
+  height: 33px;
+  border-radius: 33px;
+  border: 1px solid #fff;
+}
+.card-user-info-name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+}
+
+.card-user-info img:first-child {
+  margin-right: 16px;
+  border: 1px solid #fff;
+}
+
+.card-user-info span:last-child {
+  margin-left: 5px;
+}

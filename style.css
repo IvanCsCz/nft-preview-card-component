@@ -41,6 +41,11 @@ body {
   font-weight: 600;
 }
 
+.card-title:hover {
+  cursor: pointer;
+  color: #00fff8;
+}
+
 .card-description {
   margin-top: 16px;
   font-size: 18px;
@@ -92,6 +97,11 @@ body {
   font-style: normal;
   font-weight: 400;
   color: #fff;
+}
+
+.card-user-info-name:hover {
+  cursor: pointer;
+  color: #00fff8;
 }
 
 .card-user-info img:first-child {
